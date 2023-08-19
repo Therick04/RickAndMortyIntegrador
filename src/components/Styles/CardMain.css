@@ -1,0 +1,30 @@
+.mainMain{
+    background-color: #000;
+}
+
+.crdMain{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,220px);
+    gap: 40px;
+    border: 4px solid #000;
+    width: 94%;
+    min-height: 589px;
+    background-image: url(../../assets/nebulosa-azul-y-verde-de-las-constelaciones.jpg);
+    background-size: cover;
+}
+
+.crd {
+    margin-top: 50px;
+    width: 100%;
+    height: 290px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    font-size: 12px;
+    align-items: center;
+    justify-items: center;
+    margin-left: 16px;
+    background-image: url(../../assets/—Pngtree—shadow\ effect\ striped\ prison\ background_1206056.jpg);
+    background-size: cover;
+}
